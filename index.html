@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Issue Tracker</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <section class="flex items-center justify-center border min-h-screen">
+        <!-- min-h-screen is used to make the section take the full height of the screen, ensuring that the content is centered vertically as well as horizontally. -->
+        <div class="border border-gray-300/40 h-120 rounded-lg mx-auto mt-10 p-10 flex flex-col items-center justify-center gap-10 shadow-[0_2px_10px_rgba(0,0,0,0.08)]">
+            <div class="flex flex-col items-center justify-center  ">
+                <img class="w-16 h-16" src="assets/github-logo.png" alt="">
+            <h1 class="text-2xl font-semibold">GitHub Issues Tracker</h1>
+            <p class="text-m">Sign in to manage your issues</p>
+            </div>
+            
+            <div class="  flex flex-col gap-2">
+                <p>Username</p>
+                <input type="text" placeholder="Enter Username" class="border border-gray-500 h-8 rounded-lg px-4 w-full max-w-xs" />
+                <p>Password</p>
+                <input type="password" placeholder="Enter Password" class="border border-gray-500 h-8 rounded-lg px-4 w-full max-w-xs" />
+
+                <div>
+                    <button class="btn btn-primary w-70">Sign In</button>
+                </div>
+
+
+                <div class="border-b border-gray-300 mt-5">
+                </div>
+
+                <div class="flex flex-col items-center justify-center">
+                    <p>Demo Credentials:</p>
+
+
+                    <p class="text-sm text-gray-500 pt-1">Username: admin</p>
+                    <p class="text-sm text-gray-500">Password: admin123</p>
+                </div>
+                
+
+            </div>
+
+
+        </div>
+    </section>
+</body>
+</html>
